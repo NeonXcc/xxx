@@ -1,4 +1,10 @@
-see## UPGRADE FOR DEBIAN
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=All-IN-ONE+Auto+Script+VPN" />
+</p>
+
+
+
+## UPGRADE FOR DEBIAN
 Masukkan perintah dibawah jika anda menggunakan OS Debian Version 9 atau 10
 ```
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
@@ -16,13 +22,30 @@ Masukkan perintah dibawah untuk menginstall Autoscript Premium by Baimstore
 apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/NeonXcc/xxx/main/xxx.sh && chmod +x xxx.sh && ./xxx.sh
 ```
 
-## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
+## `UNTUK IZIN IP AUTOSCRIPT PM ADMIN !`
+Pathmain :
+<br><br><a href="https://t.me/PathMain" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=#006400">
+
 
 ## UPDATE SCRIPT
 Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
 wget -q https://raw.githubusercontent.com/NeonXcc/xxx/main/update.sh && chmod +x update.sh && ./update.sh
 ```
+
+
+## FIX BUG ATASI HAPROXY EROR
+Masukkan perintah dibawah jika terdapat eror pada satus haproxy
+```
+cat /etc/xray/xray.key /etc/xray/xray.crt > /etc/haproxy/hap.pem
+```
+Setelah sertifikat dan kunci ssl berhasil dipindahkan, restart haproxynya
+```
+sudo systemctl restart haproxy
+```
+Kembali ke menu utama dan cek apakah haproxy sudah berjalan dengan normal
+
+
 
 ## TESTED ON OS
 - UBUNTU Version 18 Atau 20 (Recommended)
